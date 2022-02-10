@@ -1,0 +1,17 @@
+.feynman__link {
+  font-size: 36px;
+  line-height: 51px;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  font-weight: normal;
+  text-decoration:none;
+}
+
+.feynman__link:link {
+  color: #2f80ed;
+}
+
+.feynman__link:visited {
+  color: #2f80ed;
+}

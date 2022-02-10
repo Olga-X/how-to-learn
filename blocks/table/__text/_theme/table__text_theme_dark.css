@@ -1,0 +1,8 @@
+
+.table__text_theme_dark {
+  font-size: 18px;
+  line-height: 1.2;
+  margin-top: 20px;
+  font-weight: normal;
+  z-index: 5;
+}
