@@ -189,7 +189,7 @@
   position: relative;
   overflow: hidden;
   background-color: #f2f2f2;
-  background-image: url("../images/feynman.png");
+  background-image: url("../images/feynman/feynman.png");
   background-repeat: no-repeat;
   background-size: 867px 637px;
   background-position: bottom left;
@@ -244,7 +244,7 @@
 }
 
 .kaufman__triangle {
-  background-image: url(../images/kaufman-triangle.svg);
+  background-image: url(../images/kaufman/kaufman-triangle.svg);
   background-size: cover;
   width: 877px;
   height: 877px;
