@@ -1,3 +1,12 @@
+@keyframes rotation {
+  from {
+        transform: rotate(0deg);
+    }
+  to {
+        transform: rotate(360deg);
+    }
+}
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -130,9 +139,88 @@
   font-weight: bold;
 }
 
+.techniques {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.cards {
+  width: 920px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0 auto;
+
+}
+
+.cards__item {
+
+  margin-top: 60px;
+  margin-right: 100px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  list-style-type: none;
+  text-align: center;
+  width: 240px;
+
+}
+
+.cards__item:nth-child(3n) {
+  margin-right: 0;
+}
+
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  margin-left: 40px;
+  margin-right: 40px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  text-align: center;
+
+}
+
+.cards__title{
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: bold;
+  margin: 43px 0 16px;
+padding: 0;
+
+}
+
+.cards__description {
+
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: normal;
+margin: 0;
+
+text-align: center;
+}
+
+.video {
+  margin: 0;
+}
+
+
+.video__iframes {
+margin: 0 auto;
+list-style-type: none;
+}
+
+.video__iframe {
+width: 515px;
+height:316px;
+}
+
+
 .digits {
   margin: 0px;
 }
+
 
 .section-title {
   text-align: center;
@@ -155,12 +243,12 @@
 .table {
   width: 1100px;
   display: flex;
-  list-style:none;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 0;
   margin: 0 auto;
-  flex-wrap: wrap;
+  list-style: none;
   margin-bottom: 100px;
 }
 
@@ -244,7 +332,7 @@
 }
 
 .kaufman__triangle {
-  background-image: url(../images/kaufman/kaufman-triangle.svg);
+  background-image: url("../images/kaufman/kaufman-triangle.svg");
   background-size: cover;
   width: 877px;
   height: 877px;
@@ -406,4 +494,9 @@ height: 35px;
 .footer__column-link:visited {
   color: white;
   text-decoration: none;
+}
+
+.rotation {
+  animation: rotation 20s linear infinite;
+
 }

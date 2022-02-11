@@ -7,8 +7,7 @@
     }
 }
 
-
 .rotation {
+  animation: rotation 20s linear infinite;
 
-    animation: rotation 20s ease-in-out infinite;
 }
