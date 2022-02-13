@@ -15,3 +15,8 @@
 .feynman__link:visited {
   color: #2f80ed;
 }
+
+.feynman__link:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
