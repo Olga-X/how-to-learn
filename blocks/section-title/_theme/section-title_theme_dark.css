@@ -4,10 +4,7 @@
   font-size: 60px;
   line-height: 1.15;
   font-weight: bold;
-  margin-top:  90px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
+  margin: 0px;
   width: 60%;
   z-index: 3;
 }

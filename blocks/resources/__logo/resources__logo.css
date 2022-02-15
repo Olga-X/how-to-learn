@@ -1,9 +1,9 @@
-.resources__column-logo {
+.resources__logo {
   width: 270px;
   height: 38px;
 }
 
-.resources__column-logo:hover {
+.resources__logo:hover {
   opacity: 0.5;
   transition: 0.5s;
 }
